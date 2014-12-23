@@ -25,6 +25,7 @@
     "load-grunt-tasks": "~0.4.0",
     "time-grunt": "~0.3.1",
     "jshint-stylish": "~0.1.5"
+	"pocket-api": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0"
