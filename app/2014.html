@@ -3,28 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="product" content="Metro UI CSS Framework">
-    <meta name="description" content="Simple responsive css framework">
-    <meta name="author" content="Sergey S. Pimenov, Ukraine, Kiev">
+    <meta name="product" content="Year in review">
+    <meta name="description" content="Metro UI style year review">
+    <meta name="author" content="Fouad">
 
+    <!-- build:css css/2014.css -->
     <link href="../bower_components/metro-ui-css/css/metro-bootstrap.css" rel="stylesheet">
     <link href="../bower_components/metro-ui-css/css/metro-bootstrap-responsive.css" rel="stylesheet">
     <link href="../bower_components/metro-ui-css/css/iconFont.css" rel="stylesheet">
     <link href="docs.css" rel="stylesheet">
     <link href="../bower_components/metro-ui-css/js/prettify/prettify.css" rel="stylesheet">
+    <!-- endbuild -->
 
-    <!-- Load JavaScript Libraries -->
+    <!-- build:js js/2014.js -->
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-    <!--    <script src="../bower_components//prettify/prettify.js"></script>-->
-
-    <!-- Metro UI CSS JavaScript plugins -->
     <script src="../bower_components/metro-ui-css/min/metro.min.js"></script>
-
-
-    <!-- Local JavaScript -->
     <script src="scripts/2014.js"></script>
+    <!-- endbuild -->
 
     <title>2014 in Review</title>
 </head>
@@ -61,7 +58,7 @@
             </a>
 
             <!--weight tile-->
-            <a class="tile double bg-darkRed live" data-role="live-tile" data-effect="slideUpDown">
+            <a class="tile double bg-lightRed live" data-role="live-tile" data-effect="slideUpDown">
                 <div class="tile-content text">
                     <br/>
                     <h1 class="text-center fg-white">10kg</h2>
@@ -76,8 +73,10 @@
                     </div>
                 </div>
             </a>
+           
+
             <!--swearing-->
-            <a class="tile double bg-darkRed live" data-role="live-tile" data-effect="slideUp">
+            <a class="tile double bg-darkCrimson live" data-role="live-tile" data-effect="slideUp">
                 <div class="tile-content text">
                     <span class="text-center fg-white"></span>
                     <br/>
@@ -93,7 +92,7 @@
                     </div>
                 </div>
             </a>
-            <!--blood pressure-->
+             <!--blood pressure-->
             <a class="tile double bg-darkRed live" data-role="live-tile" data-effect="slideUp">
                 <div class="tile-content text padded">
                     <p class="fg-white">And probably my <strong>blood pressure</strong> too!</p>
@@ -111,13 +110,14 @@
             </a>
 
 
-
         </div>
+
+
         <div class="tile-group four">
             <div class="tile-group-title">Books & Learning</div>
 
             <!--Books-->
-            <a href="https://www.goodreads.com/review/list/2449165-mohammad-fouad?read_at=2014&view=covers" class="tile bg-darkBrown double live" data-role="live-tile" data-effect="slideUp">
+            <a href="https://www.goodreads.com/review/list/2449165-mohammad-fouad?read_at=2014&view=covers" class="tile bg-darkCrimson double live" data-role="live-tile" data-effect="slideUp">
                 <div class="tile-content icon">
                     <h1 class="text-center fg-white"> <span class="icon-book"></span></h1>
                     <div class="brand">
@@ -136,7 +136,7 @@
             </a>
 
             <!--kindle tile-->
-            <a class="tile bg-brown double live" data-role="live-tile" data-effect="slideLeft">
+            <a class="tile bg-darkBrown double live" data-role="live-tile" data-effect="slideLeft">
                 <div class="tile-content image">
                     <img class="span12" src="images/kindle3.jpg" alt="" />
                 </div>
@@ -167,13 +167,13 @@
                 </div>
             </a>
             <!--pocket articles read-->
-            <a class="tile bg-brown  live" data-role="live-tile" data-effect="slideUp">
+            <a class="tile bg-darkCyan  live" data-role="live-tile" data-effect="slideUp">
                 <div class="tile-content icon">
                     <img src="images/pocket.png" />
                 </div>
                 <div class="tile-content text fg-white text-center">
                     <br/>
-                    <h2 class="fg-white">1000</h2>
+                    <h2 class="fg-white">700</h2>
                     <span>articles read</span>
                 </div>
                 <div class="brand">
@@ -189,7 +189,7 @@
                 </div>
                 <div class="tile-content text fg-white text-center">
                     <br/>
-                    <h2 class="fg-white">1000</h2>
+                    <h2 class="fg-white">970</h2>
                     <span>articles saved</span>
                 </div>
                 <div class="brand">
@@ -203,23 +203,47 @@
                     <img class="" src="images/pluralsight.png" />
                 </div>
                 <div class="tile-content text fg-white text-center">
+                    <span>Completed</span>
                     <h1 class="fg-white no-margin">14</h1>
-                    <span>Completed Courses!</span>
+                    <span>Courses!</span>
                 </div>
                 <div class="brand">
                     <div class="label"><span class="icon-film"></span>
                     </div>
                 </div>
             </a>
+            <!--New tech-->
+            <a class="tile live" data-role="live-tile" data-effect="slideUp">
+                <div class="tile-content bg-darkRed text  text-center">
+                    <br/><span class="fg-white">&</span>
+                    <h3 class="fg-white">Learned</h3>
+                </div>
+                <div class="tile-content image">
+                    <img class="" src="images/angular.png" />
+                </div>
+                <div class="tile-content image">
+                    <img class="" src="images/bootstrap.jpg" />
+                </div>
+                <div class="tile-content image">
+                    <img class="" src="images/node2.png" />
+                </div>
+                <div class="tile-content image">
+                    <img class="" src="images/yo.png" />
+                </div>
+                <div class="tile-content image">
+                    <img class="" src="images/d3.png" />
+                </div>
+            </a>
 
-            <!--new tech learned d3 js bootstrap -->
+
         </div>
 
         <div class="tile-group double ">
 
             <div class="tile-group-title">Creating</div>
             <!--Github-->
-            <a class="tile bg-darkOrange double live" data-role="live-tile" data-effect="slideUp">
+            <a href="https://github.com/mfouad" class="tile bg-darkRed double live"
+                data-role="live-tile" data-effect="slideUp">
                 <div class="tile-content icon">
                     <span class="icon-github-2"></span>
                 </div>
@@ -227,32 +251,152 @@
                     <p class="fg-white text-center">4 new open source projects</p>
                 </div>
             </a>
-
-      
-            <!--rescue time-->
-            <a class="tile bg-red  live" data-role="live-tile" data-effect="slideUp">
+            
+             <div class="tile-group-title">Creating</div>
+            <!--Github-->
+            <a class="tile bg-darkCyan double live" data-role="live-tile" data-effect="slideUp">
                 <div class="tile-content icon">
-                    <img src="images/res.png" />
-                </div>
-                <div class="tile-content text fg-white text-center">
-                    <br/>
-                    <h2 class="fg-white">48%</h2>
-                    <span>productivity pluse</span>
+                    <span class="icon-stats"></span>
                 </div>
                 <div class="brand">
-                    <div class="badge attention"></div>
+                    <p class="fg-white text-center">12 new talks</p>
+                </div>
+            </a>
+
+
+
+            <!--This site-->
+            <a class="tile bg-darkTeal live" data-role="live-tile" data-effect="slideUpDown">
+                <div class="tile-content text text-center">
+
+                    <h1><span class="icon-chronometer fg-white "></span></h1>
+                    <h5 class="text-center fg-white">20 Hours</h5>
+                </div>
+                <div class="tile-content text">
+                    <br/>
+                    <p class="text-center fg-white">spent making</p>
+                    <h3 class="text-center fg-white">this site!</h3>
+                    <div class="brand">
+                        <div class="label">
+                            <span class="icon-chronometer"></span>
+                        </div>
+                    </div>
                 </div>
 
             </a>
 
 
+        </div>
 
-            <!--presentations gave-->
-            <!--builds shipped-->
+        <div class="tile-group double">
+            <div class="tile-group-title">Religion</div>
+
+            <a class="tile bg-darkCrimson  double live" data-role="live-tile" data-effect="slideUp">
+                 <div class="tile-content text">
+                   <br/>
+                    <p class="text-center fg-white">but, don't let some lame accomplishments fool you!</p>
+                </div>
+                                 <div class="tile-content text">
+                    <p class="text-center fg-white"><br/>and remember what really</p>
+                    <h2  class="text-center fg-white">matters!</h2>
+                </div>
+
+                <div class="tile-content text">
+                   <br />
+                    <h5 class="text-center fg-white">عَن عُمُرِه فيما أفناهُ</h5>
+                </div>
+                <div class="brand">
+                    <div class="label"></div>
+                    <div class="badge attention"></div>
+                </div>
+
+            </a>
+
             
-            <!--new IDE-->
+            <!--Religion-->
+            <a class="tile double bg-black live" data-role="live-tile" data-effect="slideUpDown">
+                <div class="tile-content image">
+                    <img src="images/quran.jpg" />
+                </div>
+                <div class="tile-content icon">
+                   <br />
+                    <h2 class="text-center fg-white">Muslim!</h2>
+                </div>
+                <div class="tile-content">
+                    <br />
+                    <p class="text-center fg-white">something I am <strong>thankful</strong> for 
+                    </p>
+                </div>
+                <div class="brand">
+                    <div class="label">
+                        <span class="icon-earth"></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="tile-group double">
+            <div class="tile-group-title">Work</div>
+
+            <!--Work-->
+            <a href="http://www.ntpsoftware.com/" class="tile double bg-darkTeal live" data-role="live-tile" data-effect="slideUpDown">
+                <div class="tile-content text">
+                    <br/>
+                    <p class="text-center fg-white">completed</p>
+                    <h2 class="text-center fg-white">6 Years!</h2>
+                </div>
+                <div class="tile-content">
+                    <br />
+                    <p class="text-center fg-white">experience in <strong>Enterprise Storage</strong>
+                    </p>
+
+                </div>
+                <div class="brand">
+                    <div class="label">
+                        <span class="icon-database"></span>
+                    </div>
+                </div>
+            </a>
+
+            <!--rescue time-->
+            <a class="tile bg-darkCyan  double live" data-role="live-tile" data-effect="slideUp">
+                <div class="tile-content icon">
+                    <img src="images/res.png" />
+                </div>
+                <div class="tile-content icon">
+                    <p class="text-center fg-white">average productivity declined:</p>
+                    <img src="images/prod.png" />
+                </div>
+                <div class="brand">
+                    <div class="label"></div>
+                    <div class="badge attention"></div>
+                </div>
+
+            </a>
+
+            <!--Quit-->
+            <a class="tile double bg-darkTeal live" data-role="live-tile" data-effect="slideUpDown">
+                <div class="tile-content text">
+                    <br/>
+                    <h2 class="text-center fg-white">Quit</h2>
+                    <p class="text-center fg-white">in Dec 2014</p>
+                </div>
+                <div class="tile-content text">
+                    <br/>
+                    <p class="text-center fg-white">to work on a</p>
+                    <h2 class="text-center fg-white">Startup!</h2>
+                    <p class="text-center fg-white">(hopefully)</p>
+
+                </div>
+                <div class="brand">
+                    <div class="label">
+                        <span class="icon-switch"></span>
+                    </div>
+                </div>
+            </a>
 
         </div>
+
     </div>
 
 
